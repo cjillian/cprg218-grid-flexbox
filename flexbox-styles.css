@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+section{
+   /* border: 1px solid plum;*/
+    flex: 1;
+    padding: 5px;
+}
+section#appetizers{
+    flex: 2;
+}
+section#appetizers, section#mains, section#desserts{
+    background-color: bisque;
+}
+/*section:nth-of-type(odd)*/
+    
